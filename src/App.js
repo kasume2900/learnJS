@@ -1,11 +1,14 @@
 
 import './App.scss';
+import Content from './components/Content/Content';
+import Header from './components/Header/Header';
 
-function App() {
+
+const App = () => {
   return (
     <div className="App">
-     <div>sssss</div>
-     <div>22222</div>
+     <Header />
+     <Content />
     </div>
   );
 }
